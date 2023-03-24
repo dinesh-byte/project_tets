@@ -1,14 +1,4 @@
 #Networking Component
-variable acc_key {
-  type        = string
-  description = "Access-key"
-}
-
-variable sec_key {
-  type        = string
-  description = "Sec_KEY"
-}
-
 variable "cidr_blockvpc" {
   type        = string
   default     = "10.0.0.0/16" #65536
